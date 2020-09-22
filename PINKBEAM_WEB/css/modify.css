@@ -1,0 +1,164 @@
+@charset "euc-kr";
+* {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.wrap {
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+}
+.wrap .top {
+	height: 160px;
+	width: 1200px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	float: left;
+	position: relative;
+}
+.wrap .top .top_left {
+	float: left;
+	height: 160px;
+	width: 1090px;
+	position: relative;
+}
+.wrap .top .top_right {
+	float: left;
+	height: 160px;
+	width: 110px;
+	position: relative;
+}
+.wrap .main {
+	height: 640px;
+	width: 1200px;
+	float: left;
+}
+.wrap .top .menu {
+	background-color: #e18197;
+	height: 160px;
+	width: 1090px;
+	position: absolute;
+	display: none;
+}
+.wrap .top .top_right2 {
+	position: absolute;
+	height: 160px;
+	width: 110px;
+	right: 0px;
+	display: none;
+}
+.wrap .top .menu li {
+	display: block;
+	float: left;
+	height: 160px;
+	width: 181px;
+}
+.wrap .main .main_top {
+	float: left;
+	height: 70px;
+	width: 1200px;
+	background-image: url(../img/modify.png);
+}
+.wrap .main .main_bottom {
+	float: left;
+	height: 670px;
+	width: 1200px;
+}
+.wrap .main .main_bottom .main_left {
+	float: left;
+	width: 450px;
+	height: 600px;
+}
+.wrap .main .main_bottom .main_left .left_menu1 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join1.png);
+}
+.wrap .main .main_bottom .main_left .left_menu2 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join2.png);
+}
+.wrap .main .main_bottom .main_left .left_menu3 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join3.png);
+}
+.wrap .main .main_bottom .main_left .left_menu4 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join4.png);
+}
+.wrap .main .main_bottom .main_left .left_menu5 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join5.png);
+}
+
+.wrap .main .main_bottom .main_left .left_menu6 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join6.png);
+}
+.wrap .main .main_bottom .main_left .left_menu7 {
+	float: left;
+	height: 100px;
+	width: 450px;
+	background-image: url(../img/join9.png);
+}
+.wrap .main .main_bottom .main_right {
+	float: left;
+	width: 750px;
+	height: 500px;
+}
+.wrap .main .main_bottom .main_right .right_menu {
+	float: left;
+	height: 100px;
+	width: 800px;
+}
+.wrap .main .main_bottom .main_right .right_menu .intput_box .input_size {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-top: 30px;
+}
+.wrap .main .main_bottom .main_right .right_menu .intput_box .text {
+	height: 50px;
+	width: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+}
+.wrap .main .main_bottom .main_right .right_menu .intput_box p {
+	height: 50px;
+	width: 100px;
+	margin-top: 40px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+}
+.wrap .main .main_bottom .main_right .right_menu .intput_box .input_size3 {
+	height: 40px;
+	width: 100px;
+	margin-top: 30px;
+	float: left;
+}
+.wrap .main .main_bottom .main_send {
+	float: left;
+	height: 70px;
+	width: 1200px;
+}
+.wrap .main .main_bottom .main_send .img{
+	float: left;
+	height: 70px;
+	width: 600px;
+}

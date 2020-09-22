@@ -1,0 +1,123 @@
+@charset "euc-kr";
+* {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.wrap {
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+}
+.wrap .top {
+	height: 160px;
+	width: 1200px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	float: left;
+	position: relative;
+}
+.wrap .top .top_left {
+	float: left;
+	height: 160px;
+	width: 1090px;
+	position: relative;
+}
+.wrap .top .top_right {
+	float: left;
+	height: 160px;
+	width: 110px;
+	position: relative;
+}
+
+.wrap .main {
+	height: 640px;
+	width: 1200px;
+	float: left;
+}
+.wrap .top .menu {
+	background-color: #e18197;
+	height: 160px;
+	width: 1090px;
+	position: absolute;
+	display: none;
+}
+.wrap .top .top_right2 {
+	position: absolute;
+	height: 160px;
+	width: 110px;
+	right: 0px;
+	display: none;
+}
+.wrap .top .menu li {
+	display: block;
+	float: left;
+	height: 160px;
+	width: 181px;
+}
+.wrap .main .main_top {
+	float: left;
+	height: 70px;
+	width: 1200px;
+	background-image: url(../img/login.png);
+}
+.wrap .main .main_bottom {
+	float: left;
+	height: 370px;
+	width: 1200px;
+}
+.wrap .main .main_bottom .main_left {
+	float: left;
+	width: 450px;
+	height: 370px;
+}
+.wrap .main .main_bottom .main_left .left_top {
+	float: left;
+	height: 185px;
+	width: 450px;
+	background-image: url(../img/login1.png);
+}
+.wrap .main .main_bottom .main_left .left_bottom {
+	float: left;
+	height: 185px;
+	width: 450px;
+	background-image: url(../img/login2.png);
+}
+.wrap .main .main_bottom .main_center {
+	float: left;
+	width: 250px;
+	height: 370px;
+}
+.wrap .main .main_bottom .main_center .center_top {
+	float: left;
+	height: 185px;
+	width: 250px;
+}
+.wrap .main .main_bottom .main_center .center_top .input_size1 {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-top: 110px;
+}
+.wrap .main .main_bottom .main_center .center_bottom {
+	float: left;
+	height: 185px;
+	width: 250px;
+}
+.wrap .main .main_bottom .main_center .center_bottom .input_size2 {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-top: 30px;
+}
+.wrap .main .main_bottom .main_right1 {
+	float: left;
+	width: 150px;
+	height: 370px;
+}
+.wrap .main .main_bottom .main_right2 {
+	float: left;
+	width: 350px;
+	height: 370px;
+}
